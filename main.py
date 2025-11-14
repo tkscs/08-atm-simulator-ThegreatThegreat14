@@ -75,7 +75,7 @@ while True:
             elif Is_Float(Request) == True:
                 Balance = Balance + float(Request)
                 break
-        print(f"You have deposited {Request} dollar{S_Variable(Balance)} into your balance.")
+        print(f"You have deposited {Request} dollar{S_Variable(Request)} into your account.")
     elif Request == ("EXIT"):
         print("Thanks for visiting the bank. Hopefully we'll see you back here soon! Goodbye!")
         break
